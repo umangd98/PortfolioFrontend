@@ -154,6 +154,10 @@ h6 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.left-column h5 {
+  text-align: center; 
+  line-height: 0;
+}
 #profile-pic {
   height: 200px;
   width: 200px;
@@ -246,7 +250,7 @@ h6 {
 }
 
 .about-wrapper {
-  padding-top: 50px;
+  padding-top: 5px;
   padding-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -261,6 +265,14 @@ h6 {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--previewShadow);
+}
+
+#bio h3 {
+  text-align: center;
+}
+
+#projects h3 {
+  text-align: center;
 }
 
 .post-wrapper {
@@ -306,6 +318,10 @@ h6 {
   margin-bottom: 50px;
 }
 
+#contact h3 {
+  text-align: center;
+}
+
 #submit-button {
   margin-top: 10px;
   width: 100%;
@@ -348,3 +364,4 @@ h6 {
 .post img {
   object-fit: fill;
 }
+
