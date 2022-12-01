@@ -365,6 +365,9 @@ h6 {
   .main-container {
     width: 95%;
   }
+  .main-container-post {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .intro-wrapper {
