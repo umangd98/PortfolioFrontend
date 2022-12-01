@@ -57,6 +57,11 @@ textarea {
   width: 1200px;
   margin: 0 auto;
 }
+
+.main-container-post {
+  width: 800px;
+  margin: 0 auto;
+}
 a {
   text-decoration: none;
   color: #17a2b8;
@@ -306,6 +311,19 @@ h6 {
   display: block;
   object-fit: cover;
 }
+
+.thumbnail-post {
+  width: 50%;
+  height: 180px;
+  display: block;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--borderColor)ck;
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
 
 #contact-form {
   display: block;
